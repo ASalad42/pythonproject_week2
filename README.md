@@ -38,9 +38,38 @@ print(greeting.isdigit())
 print(greeting.endswith("!"))
 print(greeting.startswith("H"))
 ```
-#### strings concatenation costing 
 
-- strings indexing 
+#### strings concatenation costing
+
+- strings indexing
 - `Hello World!`
-- index in python starts with 0 
-- 
+- index in python starts with 0
+
+````python
+#print(len(greeting))
+#print(greeting[-5])
+#print(greeting[:5])
+
+#print only world using slicing
+
+print(greeting[6:])
+print(greeting[3])
+print(greeting[-9])
+print(greeting[6])
+
+
+example_string = "jane"
+print(example_string)
+print(len(example_string))
+# strip()
+
+print(len(example_string.strip()))
+#welcome user with their name and welcome message - name and message must start with capital
+example_text = "Heres Some text with lots of text"
+print(example_text.count("text"))
+
+#find a method to bring the statment in captial letter
+print(example_text.capitalize())
+print(example_text.lower())
+
+````
