@@ -39,16 +39,16 @@ print(greeting.endswith("!"))
 print(greeting.startswith("H"))
 ```
 
-#### strings concatenation costing
+#### strings concatenation and casting 
 
 - strings indexing
 - `Hello World!`
 - index in python starts with 0
 
 ````python
-#print(len(greeting))
-#print(greeting[-5])
-#print(greeting[:5])
+print(len(greeting))
+print(greeting[-5])
+print(greeting[:5])
 
 #print only world using slicing
 
@@ -74,15 +74,21 @@ print(example_text.lower())
 
 ````
 
-# data collections
+# Data collections
+
 ## lists, tuples & dict
 
 ### lists
-# what are lists? exam questions related to this
-# very simple sometimes - examples below
-# correct syntax []
-# lists are mutable
-# indexing same concept allies
+
+#### what are lists? exam questions related to this
+
+#### very simple sometimes - examples below
+
+#### correct syntax []
+
+#### lists are mutable
+
+#### indexing same concept allies
 
 ```python
 shopping_list = ["bat", "milk", "bread"]
