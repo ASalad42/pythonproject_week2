@@ -80,15 +80,11 @@ print(example_text.lower())
 
 ### lists
 
-#### what are lists? exam questions related to this
-
-#### very simple sometimes - examples below
-
-#### correct syntax []
-
-#### lists are mutable
-
-#### indexing same concept allies
+- what are lists? exam questions related to this
+- very simple sometimes - examples below
+- correct syntax []
+- lists are mutable
+- indexing same concept allies
 
 ```python
 shopping_list = ["bat", "milk", "bread"]
@@ -123,3 +119,17 @@ print(mixed_list[1:3]) #outcome would be 2,3 - CORRECT ANS
 print(mixed_list[-1:]) #outcome is three
 
 ```
+
+### tuples
+
+a
+
+b
+
+c
+
+### dict
+
+a
+
+b
