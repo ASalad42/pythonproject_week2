@@ -1,6 +1,6 @@
 ### Data types and oprators
 
-### 2 tpes of operators
+### 2 types of operators
 
 #### arthmetic operators
 
@@ -39,11 +39,17 @@ print(greeting.endswith("!"))
 print(greeting.startswith("H"))
 ```
 
-#### strings concatenation and casting 
+#### strings concatenation and casting
 
+
+### Indexing example - will be in test!
 - strings indexing
 - `Hello World!`
-- index in python starts with 0
+-  index in python starts with 0
+1. how to slice it 
+2. how to divide it 
+3. how pick specific character 
+4. 2/3 questions related to i
 
 ````python
 print(len(greeting))
@@ -57,7 +63,9 @@ print(greeting[3])
 print(greeting[-9])
 print(greeting[6])
 
-
+````
+### More on strings 
+```python 
 example_string = "jane"
 print(example_string)
 print(len(example_string))
@@ -76,9 +84,9 @@ print(example_text.lower())
 
 # Data collections
 
-## lists, tuples & dict
+## lists, tuples & dictionaries
 
-### lists
+### Lists
 
 - what are lists? exam questions related to this
 - very simple sometimes - examples below
@@ -120,16 +128,70 @@ print(mixed_list[-1:]) #outcome is three
 
 ```
 
-### tuples
+### Tuples
 
-a
+- why do we need tuple 
+- lists [] are mutable vs tuples () are immutable 
+- syntax for tuple ()
+- what are the use cases? date of birth will never change 
 
-b
+````python
+essential = ("city", "DOB", "place of birth")
+print (essential)
+print (type(essential))
 
-c
+print (essential[1])  #indexing concept still applies and stays the same for both list and tuple
 
-### dict
+essential[0] = "town" #immutable - cant change city because we said earlier is unchangeable
+just tried to change index 0 in tuple and we were not allowed
+store this value (town) in index 0 for tuple (essential) > cant do that!
+````
+- essential (a,b,c) tuples 
+- essential [a,b,c] list
+- essential {} Dic
 
-a
+### Dictionary
 
-b
+- what is a dic {}? 
+- Dictionary can have all types of data collections - 
+- dict work as "KEY": "VALUE" pair
+
+````python
+devops_student1 = {
+    "key": "value",
+    "name":"james",
+    "stream":"tech",
+    "completed_lessons":3, #int
+    "completed_lessons_name":["lists","operations","builtin methods"] # adding list
+
+}
+print(devops_student1)
+# print(devops_student1.keys()) #only see keys
+# print(devops_student1.values()) #only see values
+# print(devops_student1["name"]) #to find the name of student 1 use key for him which is name
+
+# find out how to delete in item from dic and delete operations
+devops_student1["completed_lessons_name"].remove("operations")
+# find out how to change completed lessons from 3 to 2
+devops_student1["completed_lessons"] =2
+print(devops_student1)
+````
+
+### Control Flow
+
+- if, elif, else statments - conditional statments
+
+````python
+weather = "sunny" # True or False
+if weather == "sunny":
+    print("lets do bbq") # execute this line if sunny
+
+elif weather == "dry":
+    print("getting there") # if line 88 has "dry" then this will be executed
+
+else:
+    print("hope for the best") # this is said if it isnt sunny
+````
+sudo coding - human readable 
+
+
