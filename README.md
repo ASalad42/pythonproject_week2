@@ -313,4 +313,19 @@ print(answer)
 
 
 
+
+
+
+
+
 ````
+### Test
+- 16 problems 
+- syntaxing 
+- indexing - read section above for more info
+- block of code 
+- some OOP questions - inheretince 
+- control flow quwstrions 
+- variables 
+- packages 
+- codewars&w3schools good practice - codewars more advanced, 

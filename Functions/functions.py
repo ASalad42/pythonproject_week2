@@ -16,8 +16,28 @@
 
 # create a function that takes two arguments as int
 
-def add(a,b):
-    return (a+b)
+#def add(a,b):
+    #return (a+b)
+#print(add(10,15)) #R>L printing the funcion we call with arguments we want to investigate
+# or
+#answer = add(10,15)
+#print(answer)
 
-answer = add(10,15)
-print(answer)
+# basiccalc
+
+a=10
+b=5
+
+def add(a,b):
+    return(a+b)
+def subtracrt (a,b):
+    return(a-b)
+def multiply(a,b):
+    return(a*b)
+def divide(a,b):
+    return(a/b)
+
+print(add(a,b))
+print(subtracrt(a,b))
+print(multiply(a,b))
+print(divide(a,b))
