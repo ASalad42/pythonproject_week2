@@ -11,3 +11,18 @@ print(year_born)
 
 
 # look into library time and print out hours this person has lived for
+
+#IMPORT DATE TIME MODULE
+
+import datetime
+
+x=datetime.datetime(year_born,int(input("month born"+ " ")),int(input("day born"+" ")))
+
+print(x)
+
+# at this point we know there birthday - has it gone by this year
+
+import datetime
+
+y= datetime.datetime.now()
+
